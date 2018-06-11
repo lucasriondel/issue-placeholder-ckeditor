@@ -1,0 +1,44 @@
+{
+  "name": "issue-placeholder-ckeditor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "webpack-dev-server --config ./webpack.js",
+    "build": "webpack --config ./webpack.js --display-error-details"
+  },
+  "repository": "git@github.com:lucasriondel/issue-placeholder-ckeditor.git",
+  "author": "Lucas Riondel <lucasrndl@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ckeditor/ckeditor5-alignment": "^10.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "^10.0.0",
+    "@ckeditor/ckeditor5-core": "^10.0.0",
+    "@ckeditor/ckeditor5-dev-utils": "^9.0.0",
+    "@ckeditor/ckeditor5-editor-decoupled": "^10.0.1",
+    "@ckeditor/ckeditor5-engine": "^10.0.0",
+    "@ckeditor/ckeditor5-essentials": "^10.0.0",
+    "@ckeditor/ckeditor5-heading": "^10.0.0",
+    "@ckeditor/ckeditor5-paragraph": "^10.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "^10.0.0",
+    "@ckeditor/ckeditor5-ui": "^10.0.0",
+    "@ckeditor/ckeditor5-utils": "^10.0.0",
+    "@ckeditor/ckeditor5-widget": "^10.0.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.17",
+    "@types/react-dom": "^16.0.6",
+    "awesome-typescript-loader": "^5.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss-loader": "^2.1.5",
+    "style-loader": "^0.21.0",
+    "svg-inline-loader": "^0.8.0",
+    "typescript": "^2.9.1",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.3",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
